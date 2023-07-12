@@ -18,7 +18,7 @@ int searchResource(const char* path){
 
 // 实现: 识别资源类型
 // 这里需要搭配 mime.h 头文件使用
-int identifyType(const char* path, char* type){
+int identifyResourceType(const char* path, char* type){
     // Path: /home/c/error.html
     // 确定拓展名
     // strrchr() 函数可以用于在一个大字符串中寻找小字符串, 并且为逆序查找
